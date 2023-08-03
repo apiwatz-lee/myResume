@@ -1,17 +1,21 @@
 header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: #ff2950;
+  height: 150px;
 }
 
 .myProfile {
+  display: flex;
   color: #fff;
-  width: 475px;
+  width: 80%;
+  align-items: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 62px;
-  margin: 43px 793px 43px 150px;
 }
 
 .container {
@@ -144,4 +148,10 @@ header {
   z-index: -1;
   bottom: 20px;
   left: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .right-container {
+    display: none;
+  }
 }

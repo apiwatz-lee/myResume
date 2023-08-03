@@ -22,7 +22,9 @@ function HeroSection() {
   return (
     <ChakraProvider>
       <header className="header">
-        <div className="myProfile">My Profile</div>
+        <div className="myProfile">
+          <div>My Profile</div>
+        </div>
       </header>
       <main className="container">
         <div className="left-container">

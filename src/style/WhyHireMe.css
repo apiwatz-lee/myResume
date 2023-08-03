@@ -3,6 +3,7 @@
   font-size: 48px;
   font-weight: 600;
   text-align: center;
+  margin-top: 40px;
 }
 
 .card-container {
@@ -57,4 +58,17 @@
 .skill-detail {
   text-align: center;
   color: #22222280;
+}
+
+@media only screen and (max-width: 800px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-card {
+    width: 50%;
+    height: 300px;
+    margin-top: 40px;
+  }
 }

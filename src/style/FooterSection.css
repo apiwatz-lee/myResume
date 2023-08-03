@@ -33,3 +33,30 @@
   width: 25px;
   cursor: pointer;
 }
+
+.contact-hidden {
+  display: none;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.copyright-hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: none;
+  }
+}
