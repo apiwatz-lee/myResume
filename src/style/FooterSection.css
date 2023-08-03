@@ -1,0 +1,35 @@
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 170px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  width: 300px;
+}
+
+.copyright {
+  width: 300px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.instargramFooter {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.messageLetter {
+  width: 25px;
+  cursor: pointer;
+}

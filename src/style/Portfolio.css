@@ -1,0 +1,51 @@
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.portfolio {
+  color: #222;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.see-more {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: 0.3s;
+  width: 150px;
+}
+
+.see-more:hover {
+  margin-right: 10px;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 50px;
+  cursor: pointer;
+}
+
+.portfolio-image {
+  width: 310px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 5%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.portfolio-image:hover {
+  top: -10px;
+}

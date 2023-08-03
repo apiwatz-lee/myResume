@@ -1,0 +1,147 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: #ff2950;
+}
+
+.myProfile {
+  color: #fff;
+  width: 475px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px;
+  margin: 43px 793px 43px 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 570px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.left-container > .greeting {
+  font-size: 20px;
+}
+
+.greeting,
+.name,
+.description,
+.button-container {
+  width: 400px;
+  color: #222;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.name {
+  color: #222;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.contact-container {
+  display: flex;
+  width: 400px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  width: 180px;
+}
+
+.facebook,
+.twitter,
+.instargram,
+.linkedIn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.instargram {
+  width: 32px !important;
+}
+
+.button-container {
+  margin-right: 25px;
+}
+
+.send-request-button {
+  background-color: #ff2950 !important;
+  color: white !important;
+  padding: 20px !important;
+}
+
+.send-request-button:hover {
+  background-color: rgb(108, 0, 0) !important;
+  transition-duration: 1.5s !important;
+}
+
+.download-cv-button {
+  border: 1px solid #ff9b70;
+  padding: 20px !important;
+  color: #22222280 !important;
+  margin-left: 20px;
+}
+
+.download-cv-button:hover {
+  background-color: #0f5482 !important;
+  color: white !important;
+  transition-duration: 1.5s !important;
+  border: none !important;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+}
+
+.myPicture {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  position: relative;
+}
+
+.myPicture:hover {
+  top: -10px;
+  left: -20px;
+}
+
+.bullet-top {
+  position: absolute;
+  z-index: -2;
+  top: 20px;
+  right: 2px;
+}
+
+.bullet-bottom {
+  position: absolute;
+  z-index: -1;
+  bottom: 20px;
+  left: 0px;
+}
