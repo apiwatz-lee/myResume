@@ -15,7 +15,25 @@ header {
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
-  line-height: 62px;
+  padding-left: 150px;
+}
+
+.navBar-wrapper {
+  display: flex;
+  color: #fff;
+  width: 50%;
+
+  & .whyHireMe-nav,
+  .portfolio-nav,
+  .contact-nav {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+#why {
+  transition: width 2s, height 4s;
 }
 
 .container {

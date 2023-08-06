@@ -1,8 +1,7 @@
 import * as React from "react";
-import { useState } from "react";
 import HeroSectionData from "../data/HeroSectionData";
 import { ChakraProvider } from "@chakra-ui/react";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import "../style/HeroSection.css";
 import myPic from "../assets/myPic.jpg";
 import bullet from "../assets/BulletPoints.svg";
@@ -24,6 +23,20 @@ function HeroSection() {
       <header className="header">
         <div className="myProfile">
           <div>My Profile</div>
+        </div>
+        <div className="navBar-wrapper">
+          <a href="#why" className="whyHireMe-nav">
+            Why hire me
+          </a>
+          <a href="#port" className="portfolio-nav">
+            Portfolio
+          </a>
+          <a href="#contact" className="contact-nav">
+            Contact
+          </a>
+          {/* <div className="whyHireMe-nav">Why hire me</div>
+          <div className="portfolio-nav">Portfolio</div>
+          <div className="contact-nav">Contact</div> */}
         </div>
       </header>
       <main className="container">

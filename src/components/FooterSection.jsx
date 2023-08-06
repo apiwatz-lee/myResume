@@ -7,7 +7,7 @@ function Footer() {
   const { messageBox, instargram, messageLetter } = FooterData.icon;
   return (
     <div>
-      <footer className="footer-section">
+      <footer id="contact" className="footer-section">
         <div className="email">
           <img src={messageBox} alt="" />
           {email}
