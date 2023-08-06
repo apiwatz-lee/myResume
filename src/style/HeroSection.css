@@ -172,11 +172,36 @@ header {
   .right-container {
     display: none;
   }
+
+  .myProfile {
+    padding-left: 0;
+  }
+
+  .navBar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 100px;
+    margin-right: 100px;
+  }
+  & .whyHireMe-nav,
+  .portfolio-nav,
+  .contact-nav {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 430px) {
   .header {
     width: 100%;
+
+    & .myProfile {
+      font-size: 30px;
+    }
   }
 
   .greeting,
