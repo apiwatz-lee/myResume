@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import PortfolioSection from "./components/PortfolioSection";
 import WhyHireMeSection from "./components/WhyHireMeSection";
 import FooterSection from "./components/FooterSection";
+import "boxicons";
 
 import "./App.css";
 

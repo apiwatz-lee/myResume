@@ -1,10 +1,12 @@
 import * as React from "react";
 import HeroSectionData from "../data/HeroSectionData";
+
 import { ChakraProvider } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import "../style/HeroSection.css";
 import myPic from "../assets/myPic.jpg";
 import bullet from "../assets/BulletPoints.svg";
+import { Link } from "react-scroll";
 
 function HeroSection() {
   const {
@@ -24,22 +26,59 @@ function HeroSection() {
         <div className="myProfile">
           <div>My Profile</div>
         </div>
-        <div className="navBar-wrapper">
-          <a href="#why" className="whyHireMe-nav">
-            Why hire me
-          </a>
-          <a href="#port" className="portfolio-nav">
-            Portfolio
-          </a>
-          <a href="#contact" className="contact-nav">
-            Contact
-          </a>
-          {/* <div className="whyHireMe-nav">Why hire me</div>
-          <div className="portfolio-nav">Portfolio</div>
-          <div className="contact-nav">Contact</div> */}
-        </div>
+        <ul className="navBar-wrapper">
+          <li>
+            <box-icon
+              class="icon-nav"
+              name="star"
+              type="solid"
+              rotate="180"
+              color="#DDD"
+            ></box-icon>
+            <Link
+              to="whyMe"
+              smooth={true}
+              duration={600}
+              className="whyHireMe-nav"
+            >
+              Why hire me
+            </Link>
+          </li>
+          <li>
+            <box-icon
+              class="icon-nav"
+              name="briefcase-alt"
+              type="solid"
+              color="#DDD"
+            ></box-icon>
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={600}
+              className="portfolio-nav"
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <box-icon
+              class="icon-nav"
+              name="paper-plane"
+              type="solid"
+              color="#DDD"
+            ></box-icon>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={600}
+              className="contact-nav"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </header>
-      <main className="container">
+      <main name="hero" className="container">
         <div className="left-container">
           <div className="greeting">Hi!</div>
           <div className="name">

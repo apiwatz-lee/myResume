@@ -5,7 +5,7 @@ import arrow from "../assets/Arrow.svg";
 
 function Portfolio() {
   return (
-    <div id="port" className="portfolio-section">
+    <div id="portfolio" className="portfolio-section">
       <section className="portfolio-header">
         <div className="portfolio">Portfolio</div>
         <div className="see-more">

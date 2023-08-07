@@ -41,6 +41,7 @@
   height: 300px;
   margin: 15px;
   border-radius: 5%;
+  border: 1px solid rgba(224, 222, 222, 0.472);
   position: relative;
   top: 0;
   transition: top ease 0.2s;

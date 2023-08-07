@@ -4,7 +4,7 @@ import "../style/WhyHireMe.css";
 
 function WhyHireMe() {
   return (
-    <div id="why" className="whyHireMe-container">
+    <div name="whyMe" className="whyHireMe-container">
       <div className="topic">Why Hire Me?</div>
       <div className="card-container">
         {skillsSet.map((item, index) => {

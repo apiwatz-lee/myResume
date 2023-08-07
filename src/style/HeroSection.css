@@ -23,17 +23,25 @@ header {
   color: #fff;
   width: 50%;
 
+  & li {
+    list-style: none;
+    width: 200px;
+    display: flex;
+  }
+
+  & .icon-nav {
+    margin-right: 10px;
+  }
+
   & .whyHireMe-nav,
   .portfolio-nav,
   .contact-nav {
+    display: flex;
     width: 200px;
     text-align: center;
     cursor: pointer;
+    list-style: none;
   }
-}
-
-#why {
-  transition: width 2s, height 4s;
 }
 
 .container {
