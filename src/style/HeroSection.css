@@ -22,6 +22,7 @@ header {
   display: flex;
   color: #fff;
   width: 50%;
+  gap: 20px;
 
   & li {
     list-style: none;
@@ -37,7 +38,6 @@ header {
   .portfolio-nav,
   .contact-nav {
     display: flex;
-    width: 200px;
     text-align: center;
     cursor: pointer;
     list-style: none;
